@@ -56,7 +56,7 @@ public class Kamar_reguler extends Kamar {
         }
     }
 
-    // Metode untuk menampilkan detail tamu
+
     public void lihatTamu() {
         for (int i = 0; i < 50; i++) {
             System.out.println();
