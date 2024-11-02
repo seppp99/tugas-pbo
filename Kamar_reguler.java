@@ -8,19 +8,19 @@ public class Kamar_reguler extends Kamar {
     private List<Tamu> daftarTamuRg; 
     private int jumlah;
 
-    // Konstruktor default
+    
     public Kamar_reguler() {
         this(200000, 2); 
     }
 
-    // Konstruktor dengan parameter
+    
     public Kamar_reguler(int harga, int kapasitas) {
-        super(harga, kapasitas); // Memanggil konstruktor superclass
-        this.stokKamar = 30; // Default stok untuk kamar reguler
-        this.daftarTamuRg= new ArrayList<>(); // Inisialisasi daftar tamu
+        super(harga, kapasitas); 
+        this.stokKamar = 30; 
+        this.daftarTamuRg= new ArrayList<>(); 
     }
 
-    // Getter dan Setter untuk stokKamar
+    
     public int getStokKamar() {
         return stokKamar;
     }
@@ -29,7 +29,7 @@ public class Kamar_reguler extends Kamar {
         this.stokKamar = stokKamar;
     }
 
-    // Metode untuk menyewa kamar
+    
     public void sewaKamar() {
         Scanner in = new Scanner(System.in);
         System.out.print("Masukkan nama tamu: ");

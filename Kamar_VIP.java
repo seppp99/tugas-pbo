@@ -20,7 +20,7 @@ public class Kamar_VIP extends Kamar {
         this.daftarTamuRg= new ArrayList<>(); 
     }
 
-    // Getter dan Setter untuk stokKamar
+    
     public int getStokKamar() {
         return stokKamar;
     }
