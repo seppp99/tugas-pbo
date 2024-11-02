@@ -91,5 +91,6 @@ public class Kamar_reguler extends Kamar {
         }
         System.out.println("=============================================================");
         System.out.println("Sisa kamar yang tersedia :" + (stokKamar-jumlah));
+        System.out.println("==============================================================");
     }
 }

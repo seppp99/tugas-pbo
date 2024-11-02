@@ -63,7 +63,9 @@ public class Kamar_VIP extends Kamar {
     public void lihatTamu() {
         
         if (daftarTamuRg.isEmpty()) {
+            System.out.println("\n==========================================================================");
             System.out.println("Belum ada tamu yang melakukan pemesanan.");
+            System.out.println("\n==========================================================================");
             return;
         }
 

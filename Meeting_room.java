@@ -98,8 +98,10 @@ public class Meeting_room {
     }
 
     public void lihatTamu() {
-        if(status){
-            System.out.println("Belum ada yang memesan Aula!!!");
+        if(!status){
+            System.out.println("======================================================================");
+            System.out.println("Belum ada yang memesan Meeting room!!!");
+            System.out.println("======================================================================");
         }else{
         System.out.println();
         System.out.println("======================================================================");
